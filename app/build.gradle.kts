@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.music"
+    namespace = "com.ketapunk.music"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.metrolist.music"
+        applicationId = "com.ketapunk.music"
         minSdk = 26
         targetSdk = 36
         versionCode = 128
