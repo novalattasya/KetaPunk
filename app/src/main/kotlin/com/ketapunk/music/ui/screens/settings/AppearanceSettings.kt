@@ -99,11 +99,11 @@ fun AppearanceSettings(
     )
     val (darkMode, onDarkModeChange) = rememberEnumPreference(
         DarkModeKey,
-        defaultValue = DarkMode.AUTO
+        defaultValue = DarkMode.ON
     )
     val (useNewPlayerDesign, onUseNewPlayerDesignChange) = rememberPreference(
         UseNewPlayerDesignKey,
-        defaultValue = true
+        defaultValue = false
     )
     val (useNewMiniPlayerDesign, onUseNewMiniPlayerDesignChange) = rememberPreference(
         UseNewMiniPlayerDesignKey,
