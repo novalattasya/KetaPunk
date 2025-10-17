@@ -156,7 +156,7 @@ fun AboutScreen(
         Spacer(Modifier.height(4.dp))
 
         Text(
-            text = "Noval Attasya",
+            text = "MO AGAMY",
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.secondary,
         )
@@ -166,7 +166,7 @@ fun AboutScreen(
         Row {
             IconButton(
                 onClick = {
-                    uriHandler.openUri("https://github.com/novalattasya/KetaPunk")
+                    uriHandler.openUri("https://github.com/mostafaalagamy/ketapunk")
                 },
             ) {
                 Icon(
@@ -177,7 +177,7 @@ fun AboutScreen(
 
             IconButton(
                 onClick = {
-                    uriHandler.openUri("https://www.instagram.com/5nopal")
+                    uriHandler.openUri("https://www.instagram.com/mostafaalagamy")
                 }
             ) {
                 Icon(
@@ -190,7 +190,7 @@ fun AboutScreen(
         Spacer(Modifier.height(16.dp))
 
         Text(
-            text = "THANKS TO",
+            text = "COLLABORATORS",
             style = MaterialTheme.typography.labelSmall,
             color = MaterialTheme.colorScheme.secondary,
             modifier = Modifier
@@ -208,11 +208,11 @@ fun AboutScreen(
         Spacer(Modifier.height(4.dp))
 
         Text(
-            text = "Metrolist",
+            text = "Damian Sobczak",
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.secondary,
             modifier = Modifier.clickable {
-                uriHandler.openUri("https://github.com/mostafaalagamy/Metrolist")
+                uriHandler.openUri("https://github.com/FullerBread2032")
             }
         )
 
